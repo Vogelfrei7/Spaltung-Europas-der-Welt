@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Die Spaltung Europas und der Welt (1945-1980er)</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        
+        .west-accent { border-left: 6px solid #2563eb; }
+        .east-accent { border-left: 6px solid #dc2626; }
+        
+        .task-card {
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+        }
+        .task-card:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+        }
+
+        .image-container {
+            position: relative;
+            width: 100%;
+            background-color: #f1f5f9;
+            border-radius: 1rem;
+            overflow: hidden;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 400px;
+            border: 1px solid #e2e8f0;
+        }
+        
+        .propaganda-img {
+            display: block;
+            width: 100%;
+            height: auto;
+            max-height: 500px;
+            object-fit: contain;
+        }
+
+        .completed {
+            opacity: 0.6;
+            border-left-color: #10b981 !important;
+            background-color: rgba(16, 185, 129, 0.05) !important;
+        }
+        .completed h5::after {
+            content: " ✓ Erledigt";
+            color: #10b981;
+            font-size: 0.7rem;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-900 antialiased">
+
+    <!-- Header -->
+    <header class="bg-slate-900 text-white py-20 px-6 shadow-2xl relative overflow-hidden">
+        <div class="max-w-5xl mx-auto relative z-10 text-center md:text-left">
+            <h1 class="text-4xl md:text-6xl font-extrabold mb-8 tracking-tight">Die Spaltung Europas <span class="text-blue-400">&</span> der Welt</h1>
+            <div class="max-w-2xl border-l-4 border-yellow-500 pl-6 space-y-4 mx-auto md:mx-0">
+                <p class="text-xl md:text-2xl text-slate-200 italic font-light leading-relaxed">
+                    „Von Stettin an der Ostsee bis hinunter nach Triest an der Adria ist ein <span class="text-yellow-400 font-bold underline decoration-2 underline-offset-4">Eiserner Vorhang</span> über den Kontinent herabgegangen.“
+                </p>
+                <p class="text-sm text-slate-400 uppercase tracking-widest font-semibold">— Winston Churchill, März 1946</p>
+            </div>
+        </div>
+        <div class="absolute top-0 right-0 w-96 h-96 bg-blue-600/10 rounded-full -mr-32 -mt-32 blur-3xl"></div>
+        <div class="absolute bottom-0 left-0 w-64 h-64 bg-red-600/10 rounded-full -ml-32 -mb-32 blur-3xl"></div>
+    </header>
+
+    <main class="max-w-6xl mx-auto p-6 md:p-12 space-y-24">
+
+        <!-- Intro -->
+        <section class="max-w-4xl mx-auto text-center space-y-6">
+            <h2 class="text-sm font-bold text-blue-600 uppercase tracking-[0.2em]">Hintergrund</h2>
+            <p class="text-xl text-slate-600 leading-relaxed font-light">
+                Nach 1945 zerbrach die Anti-Hitler-Koalition. Aus Verbündeten wurden Gegner. In dieser digitalen Lernumgebung erarbeitest du dir die Ursachen und die Sprache des <span class="font-semibold text-slate-900">Kalten Krieges</span>.
+            </p>
+        </section>
+
+        <!-- T1 & T2 -->
+        <div class="grid md:grid-cols-2 gap-12">
+            <article class="bg-white p-10 rounded-3xl shadow-sm border border-slate-100 east-accent relative">
+                <span class="absolute top-6 right-8 text-red-100 font-black text-6xl opacity-20 pointer-events-none">OST</span>
+                <header class="mb-6">
+                    <span class="text-red-600 font-bold text-xs uppercase tracking-widest">Darstellung T1</span>
+                    <h3 class="text-2xl font-bold mt-2">Osteuropa wird kommunistisch</h3>
+                </header>
+                <p class="text-slate-700 leading-relaxed text-lg">
+                    Die sowjetischen Armeen hatten gegen Ende des Zweiten Weltkrieges die Länder Osteuropas von der deutschen Wehrmacht befreit. Doch der sowjetische Diktator Stalin zog seine Soldaten nicht aus Osteuropa zurück. Sie blieben als Besatzer. Sowjetische Offiziere sorgten dafür, dass überall kommunistische Parteien an die Macht kamen. Die neuen Staaten nannten sich Volksdemokratien. In Wirklichkeit waren sie kommunistische Diktaturen nach sowjetischem Vorbild.
+                </p>
+            </article>
+
+            <article class="bg-white p-10 rounded-3xl shadow-sm border border-slate-100 west-accent relative">
+                <span class="absolute top-6 right-8 text-blue-100 font-black text-6xl opacity-20 pointer-events-none">WEST</span>
+                <header class="mb-6">
+                    <span class="text-blue-600 font-bold text-xs uppercase tracking-widest">Darstellung T2</span>
+                    <h3 class="text-2xl font-bold mt-2">Die Antwort der Westmächte</h3>
+                </header>
+                <p class="text-slate-700 leading-relaxed text-lg">
+                    Die Menschen in Westeuropa fühlten sich bedroht. Sie fürchteten, dass Stalin seine Macht auch auf ihre Länder ausdehnen wollte. Der amerikanische Präsident Truman entschied sich 1947 zur offenen Konfrontation gegenüber der Sowjetunion. Nicht nur in Europa, sondern überall in der Welt wollte Truman den Einfluss des Kommunismus eindämmen. Aber es ging ihm auch darum, wichtige Märkte für die US-Wirtschaft zu erhalten.
+                </p>
+            </article>
+        </div>
+
+        <!-- T3: Blöcke -->
+        <section class="bg-slate-900 text-white rounded-[3rem] p-10 md:p-16 shadow-2xl">
+            <div class="max-w-3xl mx-auto text-center mb-12">
+                <span class="text-slate-500 font-bold text-xs uppercase tracking-widest">Organisationen T3</span>
+                <h3 class="text-3xl md:text-4xl font-bold mt-4 italic">Zwei feindliche Militärblöcke</h3>
+                <p class="mt-8 text-slate-400 leading-relaxed text-lg">
+                    1949 gründeten die Westmächte die <span class="text-blue-400 font-bold">NATO</span>. Die Sowjetunion reagierte 1955 mit der Gründung des <span class="text-red-500 font-bold">Warschauer Pakts</span>. Damit war die militärische Teilung der Welt zementiert.
+                </p>
+            </div>
+            
+            <div class="grid grid-cols-1 sm:grid-cols-2 gap-8 max-w-4xl mx-auto">
+                <div class="bg-slate-800 p-8 rounded-3xl border border-slate-700 text-center">
+                    <div class="text-4xl mb-4">🛡️</div>
+                    <h4 class="font-bold text-2xl uppercase tracking-wider mb-2">NATO</h4>
+                    <p class="text-blue-400 font-semibold mb-4 text-sm">Western Alliance</p>
+                    <p class="text-sm text-slate-400 italic">Gegenseitiger Beistand bei Angriffen von außen.</p>
+                </div>
+                <div class="bg-slate-800 p-8 rounded-3xl border border-slate-700 text-center">
+                    <div class="text-4xl mb-4">⚔️</div>
+                    <h4 class="font-bold text-2xl uppercase tracking-wider mb-2">Warschauer Pakt</h4>
+                    <p class="text-red-400 font-semibold mb-4 text-sm">Eastern Bloc</p>
+                    <p class="text-sm text-slate-400 italic">Sicherung der kommunistischen Machtbereiche.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- T4 & Bilder -->
+        <section class="space-y-16">
+            <div class="text-center max-w-3xl mx-auto space-y-6">
+                <span class="text-slate-500 font-bold text-xs uppercase tracking-widest">Die Macht der Bilder T4</span>
+                <h3 class="text-3xl font-bold italic">Die „Guten“ und die „Bösen“</h3>
+                <div class="bg-white p-10 rounded-3xl shadow-sm border-l-8 border-yellow-500 text-left">
+                    <p class="text-slate-700 leading-relaxed italic text-lg">
+                        „Im Konflikt zwischen Ost und West war die <span class="text-slate-900 font-bold">Propaganda</span> von zentraler Bedeutung. Sie stellte das jeweils andere System als aggressiv und gefährlich dar... Im Westen unterstellte man den Kommunisten Weltherrschaftspläne, im Osten wurden die USA als ‚kapitalistische Blutsauger‘ hingestellt.“
+                    </p>
+                </div>
+            </div>
+
+            <div class="grid md:grid-cols-2 gap-12 lg:gap-20">
+                <!-- Q1: The Red Iceberg -->
+                <div class="space-y-6">
+                    <div class="image-container shadow-2xl">
+                        <!-- Pfad angepasst für GitHub Hosting -->
+                        <img src="images/iceberg.jpg" alt="[Propagandabild: The Red Iceberg]" class="propaganda-img" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x800?text=Bild+Q1:+iceberg.jpg+fehlt+im+Ordner+images';">
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <h4 class="font-bold text-xl text-red-700">Q1: Der rote Eisberg</h4>
+                                <p class="text-xs text-slate-500 font-bold">US-COMIC, UM 1960</p>
+                            </div>
+                            <span class="bg-red-600 text-white text-[10px] px-3 py-1 rounded-full font-black uppercase">West</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Der Kommunismus wird als Naturkatastrophe (Eisberg) dargestellt, die unter der Oberfläche lauert und die Schiffe der Zivilisation bedroht.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Q4: Kartoffelkäfer -->
+                <div class="space-y-6">
+                    <div class="image-container shadow-2xl">
+                        <!-- Pfad angepasst für GitHub Hosting -->
+                        <img src="images/kaefer.jpg" alt="[Propagandabild: Kartoffelkäfer-Sabotage]" class="propaganda-img" onerror="this.onerror=null; this.src='https://via.placeholder.com/600x800?text=Bild+Q4:+kaefer.jpg+fehlt+im+Ordner+images';">
+                    </div>
+                    <div class="bg-white p-6 rounded-2xl shadow-sm border border-slate-100">
+                        <div class="flex justify-between items-start mb-4">
+                            <div>
+                                <h4 class="font-bold text-xl text-blue-800">Q4: Seid wachsam!</h4>
+                                <p class="text-xs text-slate-500 font-bold">DDR-PLAKAT, 1950</p>
+                            </div>
+                            <span class="bg-blue-700 text-white text-[10px] px-3 py-1 rounded-full font-black uppercase">Ost</span>
+                        </div>
+                        <p class="text-slate-600 text-sm leading-relaxed">
+                            Die USA werden beschuldigt, durch das Abwerfen von Kartoffelkäfern die Ernährungssicherheit der DDR-Bürger zu sabotieren.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Q2 & Q3 -->
+        <section class="max-w-5xl mx-auto">
+             <h3 class="text-center text-sm font-bold text-slate-400 uppercase tracking-[0.3em] mb-12">Quellen im Diskurs</h3>
+             <div class="grid lg:grid-cols-2 gap-10">
+                <div class="bg-white p-10 rounded-[2.5rem] shadow-xl border-t-8 border-blue-500 relative">
+                    <div class="absolute -top-4 left-10 bg-blue-500 text-white px-4 py-1 rounded-full text-xs font-bold uppercase">Q2 | USA</div>
+                    <h4 class="text-xl font-bold mb-6 italic text-blue-900">Harry S. Truman</h4>
+                    <p class="text-slate-700 leading-relaxed">
+                        „Die eine Lebensweise gründet sich auf den Willen der Mehrheit... freie Institutionen, freie Wahlen... und Freiheit von politischer Unterdrückung. Die andere Lebensform gründet sich auf den Willen einer Minderheit, den diese der Mehrheit gewaltsam aufzwingt. Sie stützt sich auf Terror und Unterdrückung...“
+                    </p>
+                </div>
+
+                <div class="bg-white p-10 rounded-[2.5rem] shadow-xl border-t-8 border-red-500 relative">
+                    <div class="absolute -top-4 left-10 bg-red-500 text-white px-4 py-1 rounded-full text-xs font-bold uppercase">Q3 | UdSSR</div>
+                    <h4 class="text-xl font-bold mb-6 italic text-red-900">Andrei Schdanow</h4>
+                    <p class="text-slate-700 leading-relaxed">
+                        „So sind zwei Lager entstanden: das imperialistische, antidemokratische Lager, dessen Hauptziel darin besteht, die Weltherrschaft des amerikanischen Imperialismus zu errichten... und das antiimperialistische Lager, dessen Hauptziel es ist, den Imperialismus zu überwinden...“
+                    </p>
+                </div>
+             </div>
+        </section>
+
+        <!-- Aufgaben -->
+        <section class="bg-slate-900 text-white p-8 md:p-16 rounded-[3rem] shadow-2xl relative overflow-hidden">
+            <div class="absolute top-0 right-0 p-12 opacity-5">
+                <svg width="200" height="200" fill="currentColor" viewBox="0 0 24 24"><path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z"/></svg>
+            </div>
+            
+            <h2 class="text-4xl font-bold mb-12 flex items-center">
+                Ergebnissicherung
+            </h2>
+            
+            <div class="grid gap-6 relative z-10">
+                <div class="bg-slate-800 p-8 rounded-3xl border-l-8 border-yellow-500 task-card cursor-pointer group" onclick="this.classList.toggle('completed')">
+                    <h5 class="text-yellow-400 font-bold mb-3 uppercase text-xs tracking-[0.2em] group-hover:text-yellow-300 transition-colors">Station 1: Ursachenanalyse</h5>
+                    <p class="text-lg text-slate-300 leading-relaxed">Analysiere T1 bis T3: Welche gegenseitigen Befürchtungen führten zur endgültigen Spaltung Europas?</p>
+                </div>
+                
+                <div class="bg-slate-800 p-8 rounded-3xl border-l-8 border-yellow-500 task-card cursor-pointer group" onclick="this.classList.toggle('completed')">
+                    <h5 class="text-yellow-400 font-bold mb-3 uppercase text-xs tracking-[0.2em] group-hover:text-yellow-300 transition-colors">Station 2: Begriffswelt</h5>
+                    <p class="text-lg text-slate-300 leading-relaxed">Vergleiche die Quellen Q2 und Q3. Wie versuchen beide Redner, ihr eigenes System als das „moralisch überlegene“ darzustellen?</p>
+                </div>
+
+                <div class="bg-slate-800 p-8 rounded-3xl border-l-8 border-yellow-500 task-card cursor-pointer group" onclick="this.classList.toggle('completed')">
+                    <h5 class="text-yellow-400 font-bold mb-3 uppercase text-xs tracking-[0.2em] group-hover:text-yellow-300 transition-colors">Station 3: Bildsprache</h5>
+                    <p class="text-lg text-slate-300 leading-relaxed">Betrachte Q1 und Q4. Erläutere, warum Propaganda im Kalten Krieg oft mit extremen Feindbildern (Insekten, Naturkatastrophen) arbeitete.</p>
+                </div>
+            </div>
+
+            <div class="mt-16 text-center">
+                <p class="text-slate-500 text-sm mb-6 uppercase tracking-widest font-bold">Dokumentation</p>
+                <div class="flex flex-wrap justify-center gap-4">
+                    <button class="bg-blue-600 hover:bg-blue-500 text-white font-bold px-10 py-4 rounded-full transition-all shadow-xl active:scale-95 text-sm uppercase tracking-widest">
+                        Antworten speichern
+                    </button>
+                    <button class="bg-transparent border-2 border-slate-700 hover:border-slate-500 text-slate-400 font-bold px-10 py-4 rounded-full transition-all text-sm uppercase tracking-widest" onclick="window.print()">
+                        Seite drucken
+                    </button>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer class="bg-slate-100 py-20 px-6 text-center border-t border-slate-200">
+        <div class="max-w-4xl mx-auto space-y-6">
+            <div class="flex justify-center space-x-4 opacity-30 mb-8">
+                <div class="w-2 h-2 rounded-full bg-slate-900"></div>
+                <div class="w-2 h-2 rounded-full bg-slate-900"></div>
+                <div class="w-2 h-2 rounded-full bg-slate-900"></div>
+            </div>
+            <p class="text-slate-400 text-[10px] font-bold uppercase tracking-[0.4em]">Geschichte Digital | 10. Klasse Realschule</p>
+            <p class="text-slate-500 text-sm leading-relaxed">
+                Interaktive Lernumgebung zur Doppelseite 130/131.<br>
+                Zugelassenes Lehrmaterial für den Geschichtsunterricht.
+            </p>
+        </div>
+    </footer>
+
+</body>
+</html>
